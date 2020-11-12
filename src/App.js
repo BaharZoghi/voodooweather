@@ -19,8 +19,7 @@ import {
   Input
 } from 'semantic-ui-react'
 
-let apiKey='12fe7cd14906d85ca416594b20384ae3'
-let gApiKey='AIzaSyBSp6Q1MToyh1AdYw-CQUGWiUDeQK6TZv8'
+
 const weatherLink='https://api.openweathermap.org/data/2.5/weather?lat='
 let units='imperial'
 const imglink='https://openweathermap.org/img/wn/' 
@@ -156,7 +155,7 @@ handlePlaceSelect = () => {
       <div className="App">
 
         <Script
-          url="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSp6Q1MToyh1AdYw-CQUGWiUDeQK6TZv8&libraries=places"
+          url="https://maps.googleapis.com/maps/api/js?key="
           onLoad={this.handleScriptLoad.bind(this)}
         />
         <Container className='contolAll'>
