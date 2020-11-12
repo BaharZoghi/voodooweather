@@ -21,9 +21,9 @@ import {
 
 let apiKey='12fe7cd14906d85ca416594b20384ae3'
 let gApiKey='AIzaSyBSp6Q1MToyh1AdYw-CQUGWiUDeQK6TZv8'
-const weatherLink='http://api.openweathermap.org/data/2.5/weather?lat='
+const weatherLink='https://api.openweathermap.org/data/2.5/weather?lat='
 let units='imperial'
-const imglink='http://openweathermap.org/img/wn/' 
+const imglink='https://openweathermap.org/img/wn/' 
 
 
 const initialState = { isLoading: false, results: [], value: '' }
