@@ -1,0 +1,193 @@
+.ui.inverted.menu {
+    background: #5e707a !important;
+}
+
+div.ui.yellow.segment.weatherContainer{
+    /* margin: 20px 150px 0px 150px !important; */
+    
+    height: 310px;
+     /* box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important;  */
+    /* padding: 20px 200px 0px 200px !important; */
+    margin-top: auto !important;
+    margin-bottom: 0px !important;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block !important; */
+    position: inherit;
+    width: 331px;
+    /* box-shadow: 0px -2px 10px black;  */
+    border-top: 30px solid #44bcd8!important;
+    }
+
+div.ui.horizontal.segments{
+    margin: 0 auto 0 auto;
+    position: absolute;
+    bottom: 5px;
+    left: 9%;
+    border: none !important;
+    box-shadow: none;
+}
+div.ui.segment.humid{
+    border: none !important;
+    box-shadow: none;
+}
+
+div.ui.segment.wind{
+    border: none !important;
+    box-shadow: none;
+}
+
+div#root{
+    height: 100% !important;
+    vertical-align: middle !important; 
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+div.App{
+    height: 100% !important;
+    vertical-align: middle !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+div.ui.container.contolAll{
+    /* height: 100% !important; */
+    /* margin-bottom: 30%;
+    margin-top: 30%;
+    margin-left: 30%;
+    margin-right: 30%; */
+    height: 100vh;
+    /* top: 50% !important; */
+    /* left: 50% !important; */
+    /* position: absolute !important; */
+}
+/* div.ui.container{
+    height:40px;
+    position: relative;
+ 
+} */
+div.ui.container.controlImage{
+    height:40px;
+    position: relative;
+
+    /* text-align: center; */
+}
+
+div.ui.container.controlCity{
+    height:40px;
+    position: relative;
+    top: 80px;
+    /* text-align: center; */
+}
+div.ui.container.controlDayTime{
+    height:40px;
+    position: relative;
+    top: 80px;
+    /* text-align: center; */
+}
+div.ui.container.controlTempr{
+    height:40px;
+    position: relative;
+    top: 75px;
+    /* text-align: center; */
+}
+div.ui.container.controlHuminWind{
+    height:40px;
+    position: relative;
+    top: 140px;
+    /* text-align: center; */
+}
+
+div.ui.basic.center.aligned.segment{
+    width: 100% !important;
+    position: relative !important;
+    top: 20% !important;  
+}
+
+div.ui.action.left.icon.input.weatherInput{
+    /* margin: 0px 500px 0px 500px !important; */
+    /* box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important; */
+    /* width: 250px !important; */
+    /* box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important; */
+    border-radius: 0 !important;
+    background-color: transparent;
+    
+}
+
+input#autocomplete.pac-target-input{ 
+    margin-top: 0px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-bottom: auto !important;
+    width: 331px !important;
+    border: 0px;
+    border-radius: 0;
+    background-color: transparent;
+    color: black;
+
+     /* width: 100% !important; */
+    /* box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important;  */
+ }
+
+ button.ui.button{
+    margin-top: 0px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: auto !important;
+ }
+
+ h4.ui.header.descr{
+     margin: 5px auto 20px auto;
+     /* position: relative; */
+ }
+
+ h1.ui.header.city{
+    margin: 0 auto 0px auto;
+    /* text-transform: uppercase; */
+}
+
+h5.ui.header.daytime{
+    margin: 0 auto 10px auto;
+    color: #a6a6a6;
+}
+
+h1.ui.header.tempr{
+    margin: 0 auto 10px auto;
+    font-size: 60px;
+}
+
+img.ui.circular.centered.image{
+    margin: -80px auto 0px auto;
+    background-color: white;
+    border: 3px solid #44bcd8!important;
+    /* filter: brightness(80%); */
+    /* opacity: 0.8; */
+    /* background: rgb(183, 184, 185); */
+    background:#808080;
+}
+
+body{
+    background-color: #f1e7da;
+}
+
+/* #c9b483, #fbbd08, #f4f0f0; */
+a.celicDeg{
+    /* top: -35px; */
+    color: #edb879 !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: 50px; */
+    position: relative;
+    /* top: -10px; */
+}
+
