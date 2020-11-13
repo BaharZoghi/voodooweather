@@ -23,9 +23,8 @@ import {
 const weatherLink='https://api.openweathermap.org/data/2.5/weather?lat='
 let units='imperial'
 const imglink='https://openweathermap.org/img/wn/' 
+const apiKey="Your OpenWeatherMap API key"
 
-
-const initialState = { isLoading: false, results: [], value: '' }
 class App extends Component {
 
   constructor(props) {
@@ -155,7 +154,7 @@ handlePlaceSelect = () => {
       <div className="App">
 
         <Script
-          url="https://maps.googleapis.com/maps/api/js?key="
+          url="https://maps.googleapis.com/maps/api/js?key=${YourGoogle-Place-API-Key}&libraries=places"
           onLoad={this.handleScriptLoad.bind(this)}
         />
         <Container className='contolAll'>
